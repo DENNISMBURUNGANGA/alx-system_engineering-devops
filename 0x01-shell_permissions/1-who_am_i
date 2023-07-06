@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo echo "Effective Username (sudo):" $(sudo id -un)
+
