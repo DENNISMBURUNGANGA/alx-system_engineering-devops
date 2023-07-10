@@ -1,1 +1,1 @@
-Save current state of directory
+no more javascript
