@@ -1,1 +1,1 @@
-6-third_line
+touch and write into 7-file
