@@ -1,1 +1,1 @@
-display /etc/hosts /etc/passwd
+last 4 lines
