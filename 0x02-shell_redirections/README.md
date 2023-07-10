@@ -1,1 +1,1 @@
-display file contents
+display /etc/hosts /etc/passwd
