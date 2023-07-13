@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$((16#${WATER//[!0-9a-fA-F]/} + 16#${STIR//[!0-9a-fA-F]/})); printf "%x\n" $result | tr -d '\\\n' | tr '0123456789abcdef' 'bestchol'
+result=$((16#${WATER//[!0-9a-fA-F]/} + 16#${STIR//[!0-9a-fA-F]/})); echo "obase=ibase=16;ibase=10;$result" | dc | tr -d '\\\n' | tr '0123456789abcdef' 'bestchol'
